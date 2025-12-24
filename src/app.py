@@ -8,7 +8,8 @@ import os
 import time
 
 # Path ke model dan metadata
-MODEL_DIR = os.path.join(os.path.dirname(__file__), '..', 'model')
+MODEL_DIR = os.path.join(os.path.dirname(__file__), "..", "model")
+MODEL_PATH = os.path.join(MODEL_DIR, "cnn_model.h5")
 
 # Custom CSS untuk styling
 st.markdown("""
@@ -180,5 +181,6 @@ if uploaded_file is not None:
             st.markdown('<div class="no-hat">', unsafe_allow_html=True)
             st.error(f"❌ **Tidak Ada Topi** (Confidence: {confidence_no_hat:.2f}%)")
             st.markdown('</div>', unsafe_allow_html=True)
+
 
 
