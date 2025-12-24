@@ -41,37 +41,6 @@ Model disimpan dalam format `.h5`, sedangkan metadata kelas disimpan dalam forma
 
 ---
 
-## 🗂️ Struktur Folder Proyek
-UAP-ML/
-│
-├── __pycache__/
-│
-├── .venv/
-│
-├── dataset/
-│ ├── test
-│ ├── train
-│ └── val
-│
-├── model/
-│ ├── cnn_model.h5
-│ ├── mobilenetv2_model.h5
-│ ├── resnet50_model.h5
-│ ├── multiclass_cnn_model.h5
-│ ├── model_metadata.pkl
-│ └── multiclass_model_metadata.pkl
-│
-├── preprocessing/
-│ └── PREPROCESSING_UAP_ML.ipynb 
-│
-├── src/
-│ └── app.py 
-│
-├── requirements.txt
-└── README.md
-
----
-
 ## ⚙️ Tahapan Pengerjaan Proyek
 1. Import library
 2. Load dataset gambar
