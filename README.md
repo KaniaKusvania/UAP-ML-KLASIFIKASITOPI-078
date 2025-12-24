@@ -38,6 +38,7 @@ Model disimpan dalam format `.h5`, sedangkan metadata kelas disimpan dalam forma
   - Data Validation
   - Data Test
 - Setiap kelas direpresentasikan dalam folder terpisah
+- berikut link dataset: https://drive.google.com/drive/folders/1ycRsELyjKkaYKOENF2x7xPcNwXM6fFG7?usp=sharing
 
 ---
 
