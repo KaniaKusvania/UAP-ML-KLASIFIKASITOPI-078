@@ -4,3 +4,4 @@ numpy==1.26.4
 pillow
 joblib
 h5py>=3.10.0
+requests
