@@ -1,7 +1,7 @@
 streamlit==1.30.0
-tensorflow==2.15.0
+tensorflow-cpu==2.20.0
 numpy==1.26.4
 pillow
 joblib
-h5py>=3.10.0
+h5py
 requests
